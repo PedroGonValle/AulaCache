@@ -837,11 +837,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\slnperformance\\performance-cache\\performance-cache.csproj",
+      "projectUniqueName": "D:\\AulaCache\\slnperformance\\performance-cache\\performance-cache.csproj",
       "projectName": "performance-cache",
-      "projectPath": "D:\\slnperformance\\performance-cache\\performance-cache.csproj",
+      "projectPath": "D:\\AulaCache\\slnperformance\\performance-cache\\performance-cache.csproj",
       "packagesPath": "C:\\Users\\labsfiap\\.nuget\\packages\\",
-      "outputPath": "D:\\slnperformance\\performance-cache\\obj\\",
+      "outputPath": "D:\\AulaCache\\slnperformance\\performance-cache\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

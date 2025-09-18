@@ -10,6 +10,59 @@
     "ReturnTypes": []
   },
   {
+    "ContainingType": "performance_cache.Controllers.HomeController",
+    "Method": "Post",
+    "RelativePath": "api/Home",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "user",
+        "Type": "performance_cache.Model.Users",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "performance_cache.Controllers.HomeController",
+    "Method": "Put",
+    "RelativePath": "api/Home/{id}",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "user",
+        "Type": "performance_cache.Model.Users",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "performance_cache.Controllers.HomeController",
+    "Method": "Delete",
+    "RelativePath": "api/Home/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
     "ContainingType": "performance_cache.Controllers.WeatherForecastController",
     "Method": "Get",
     "RelativePath": "WeatherForecast",
