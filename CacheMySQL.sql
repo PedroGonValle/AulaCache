@@ -10,3 +10,14 @@ CREATE TABLE `fiap`.`users` (
 PRIMARY KEY (`Id`));
 
 SELECT * FROM users;
+
+DROP TABLE vehicles;
+CREATE TABLE `fiap`.`vehicles` (
+`Id` INT NOT NULL AUTO_INCREMENT,
+`Brand` VARCHAR(45) NOT NULL,
+`Model` VARCHAR(45) NOT NULL,
+`Year` INT NOT NULL,
+`Plate` VARCHAR(45) NOT NULL UNIQUE,
+PRIMARY KEY (`Id`));
+
+SELECT * FROM vehicles;

@@ -3,8 +3,16 @@
   "WorkspaceRootPath": "D:\\AulaCache\\slnperformance\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7ADEA9C5-BE1A-4B3D-86EC-D8B7F7B2FB6C}|performance-cache\\performance-cache.csproj|d:\\aulacache\\slnperformance\\performance-cache\\controllers\\vehiclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ADEA9C5-BE1A-4B3D-86EC-D8B7F7B2FB6C}|performance-cache\\performance-cache.csproj|solutionrelative:performance-cache\\controllers\\vehiclecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{7ADEA9C5-BE1A-4B3D-86EC-D8B7F7B2FB6C}|performance-cache\\performance-cache.csproj|d:\\aulacache\\slnperformance\\performance-cache\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7ADEA9C5-BE1A-4B3D-86EC-D8B7F7B2FB6C}|performance-cache\\performance-cache.csproj|solutionrelative:performance-cache\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7ADEA9C5-BE1A-4B3D-86EC-D8B7F7B2FB6C}|performance-cache\\performance-cache.csproj|d:\\aulacache\\slnperformance\\performance-cache\\model\\vehicles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7ADEA9C5-BE1A-4B3D-86EC-D8B7F7B2FB6C}|performance-cache\\performance-cache.csproj|solutionrelative:performance-cache\\model\\vehicles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{7ADEA9C5-BE1A-4B3D-86EC-D8B7F7B2FB6C}|performance-cache\\performance-cache.csproj|d:\\aulacache\\slnperformance\\performance-cache\\model\\users.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -23,25 +31,51 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "VehicleController.cs",
+              "DocumentMoniker": "D:\\AulaCache\\slnperformance\\performance-cache\\Controllers\\VehicleController.cs",
+              "RelativeDocumentMoniker": "performance-cache\\Controllers\\VehicleController.cs",
+              "ToolTip": "D:\\AulaCache\\slnperformance\\performance-cache\\Controllers\\VehicleController.cs",
+              "RelativeToolTip": "performance-cache\\Controllers\\VehicleController.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAowDUAAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T00:24:15.683Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Vehicles.cs",
+              "DocumentMoniker": "D:\\AulaCache\\slnperformance\\performance-cache\\Model\\Vehicles.cs",
+              "RelativeDocumentMoniker": "performance-cache\\Model\\Vehicles.cs",
+              "ToolTip": "D:\\AulaCache\\slnperformance\\performance-cache\\Model\\Vehicles.cs",
+              "RelativeToolTip": "performance-cache\\Model\\Vehicles.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-09-18T00:23:11.318Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "HomeController.cs",
               "DocumentMoniker": "D:\\AulaCache\\slnperformance\\performance-cache\\Controllers\\HomeController.cs",
               "RelativeDocumentMoniker": "performance-cache\\Controllers\\HomeController.cs",
               "ToolTip": "D:\\AulaCache\\slnperformance\\performance-cache\\Controllers\\HomeController.cs",
               "RelativeToolTip": "performance-cache\\Controllers\\HomeController.cs",
-              "ViewState": "AgIAAGsAAAAAAAAAAAAowHUAAAAfAAAAAAAAAA==",
+              "ViewState": "AgIAAGUAAAAAAAAAAAAIwHYAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-03T23:24:31.357Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Users.cs",
               "DocumentMoniker": "D:\\AulaCache\\slnperformance\\performance-cache\\Model\\Users.cs",
               "RelativeDocumentMoniker": "performance-cache\\Model\\Users.cs",
               "ToolTip": "D:\\AulaCache\\slnperformance\\performance-cache\\Model\\Users.cs",
               "RelativeToolTip": "performance-cache\\Model\\Users.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAeAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-09-04T00:51:56.336Z",
               "EditorCaption": ""
