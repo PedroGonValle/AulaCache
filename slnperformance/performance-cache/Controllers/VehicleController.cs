@@ -1,10 +1,10 @@
 ﻿using Dapper;
+using Domain;
 using Microsoft.AspNetCore.Mvc;
 using MySqlConnector;
 using Newtonsoft.Json;
-using performance_cache.Model;
+using Repository;
 using StackExchange.Redis;
-using System.Threading.Tasks;
 
 namespace performance_cache.Controllers
 {
@@ -14,7 +14,14 @@ namespace performance_cache.Controllers
     {
         public const string key = "get-vehicles";
         private const string redisConnection = "localhost:6379";
-        private const string connectionString = "Server=localhost;database=fiap;User=root;Password=123";
+        private readonly IVehicleRepository vehicleRepository;
+        private const string connectionString = "";
+
+        public VehicleController(IVehicleRepository vehicleRepository)
+        {
+            //Recebe a injeção de dependência
+            this.vehicleRepository = vehicleRepository;
+        }
 
         [HttpGet]
         public async Task<IActionResult> Get()
@@ -31,10 +38,7 @@ namespace performance_cache.Controllers
             }
 
             //Buscando no banco
-            using var connection = new MySqlConnection(connectionString);
-            await connection.OpenAsync();
-            string sql = "SELECT id, brand, model, year, plate FROM vehicles;";
-            var vehicles = await connection.QueryAsync<Vehicles>(sql);
+            var vehicles = await vehicleRepository.GetAllVehicles();
             var vehiclesJson = JsonConvert.SerializeObject(vehicles);
             await db.StringSetAsync(key, vehiclesJson); //Configura o cache
 

@@ -1,4 +1,4 @@
-﻿namespace performance_cache.Model
+﻿namespace Domain
 {
     public class Vehicles
     {
